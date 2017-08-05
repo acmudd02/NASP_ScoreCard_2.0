@@ -1,0 +1,37 @@
+.images{
+  display: flex;
+  justify-content: center;
+}
+
+body p, h1{
+  display: flex;
+  justify-content: center;
+
+}
+body fieldset{
+  display: flex;
+  flex-direction: column;
+  margin:2%;
+  justify-content: space-around;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input[type=radio] {
+   border: 0;
+   width: 5%;
+   height: 2em;
+   text-align: center;
+}
+footer form{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+input[type=text]{
+  text-align: center;
+}
